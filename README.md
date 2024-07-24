@@ -1,2 +1,2 @@
-# JyotsnaDemo
+# Demo
 Only for Demo purposes.
