@@ -3,9 +3,9 @@
 <suite name="Suite"> 
 
  <!--	<listeners> 
-		 <listener class-name="com.Mohs10.utility.ListenerClass" /> 
-		 <listener class-name="com.Mohs10.utility.TestallureListener" />
-		 <listener class-name="com.Mohs10.JiraUtil.TestJiraListeners" /> 
+	<!--	 <listener class-name="com.Mohs10.utility.ListenerClass" /> -->
+	<!--	 <listener class-name="com.Mohs10.utility.TestallureListener" /> -->
+	<!--	 <listener class-name="com.Mohs10.JiraUtil.TestJiraListeners" /> -->
 	 </listeners> -->
 
 
@@ -13,7 +13,7 @@
 	Edge-->
 
 	<test name="TestNG_Report1">
-		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="chrome" />
 
 		<classes>
 		<!--  	<class name="com.Mohs10.TestScripts.MO_Scripts" />
@@ -21,6 +21,7 @@
 			<class name="com.Mohs10.TestScripts.MO_Close" />  
 		 	<class name="com.Mohs10.TestScripts.MO_Obs" />  -->
 		 	<class name="com.Mohs10.TestScripts.MamatvaProd_Scripts" /> 
+			<class name="com.Mohs10.TestScripts.Superadmin" /> 
 		<!--  	<class name="com.Mohs10.TestScripts.Insta_Safe" />-->
 		    <class name="com.Mohs10.Reports.New_PDF_Report" />  
 		</classes>
