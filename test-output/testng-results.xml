@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-31T15:28:28 IST" name="Suite" finished-at="2024-07-31T15:30:07 IST" duration-ms="98976">
+    <groups>
+    </groups>
+    <test started-at="2024-07-31T15:28:28 IST" name="TestNG_Report1" finished-at="2024-07-31T15:30:07 IST" duration-ms="98976">
+      <class name="com.Mohs10.Reports.New_PDF_Report">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.Mohs10.Reports.New_PDF_Report@5454d35e]" started-at="2024-07-31T15:29:01 IST" name="browserSetup" finished-at="2024-07-31T15:29:04 IST" duration-ms="3558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.Mohs10.Reports.New_PDF_Report@5454d35e]" started-at="2024-07-31T15:29:04 IST" name="methodName" finished-at="2024-07-31T15:29:04 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Mohs10.Reports.New_PDF_Report.PDFreports(org.testng.ITestContext) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method signature="PDFreports(org.testng.ITestContext)[pri:0, instance:com.Mohs10.Reports.New_PDF_Report@5454d35e]" started-at="2024-07-31T15:29:04 IST" name="PDFreports" finished-at="2024-07-31T15:30:06 IST" duration-ms="61654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@49a6f486]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PDFreports -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Mohs10.Reports.New_PDF_Report@5454d35e]" started-at="2024-07-31T15:30:06 IST" name="tearDown" finished-at="2024-07-31T15:30:07 IST" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.Mohs10.Reports.New_PDF_Report@5454d35e]" started-at="2024-07-31T15:30:07 IST" name="afterClass" finished-at="2024-07-31T15:30:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.Mohs10.Reports.New_PDF_Report -->
+      <class name="com.Mohs10.TestScripts.MamatvaProd_Scripts">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.Mohs10.TestScripts.MamatvaProd_Scripts@3d246ea3]" started-at="2024-07-31T15:28:27 IST" name="loadConfig" finished-at="2024-07-31T15:28:28 IST" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.Mohs10.TestScripts.MamatvaProd_Scripts@3d246ea3]" started-at="2024-07-31T15:28:28 IST" name="browserSetup" finished-at="2024-07-31T15:28:32 IST" duration-ms="4507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.Mohs10.TestScripts.MamatvaProd_Scripts@3d246ea3]" started-at="2024-07-31T15:28:32 IST" name="methodName" finished-at="2024-07-31T15:28:32 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Mohs10.TestScripts.MamatvaProd_Scripts.Mamatva() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method signature="Mamatva()[pri:0, instance:com.Mohs10.TestScripts.MamatvaProd_Scripts@3d246ea3]" started-at="2024-07-31T15:28:32 IST" name="Mamatva" finished-at="2024-07-31T15:28:59 IST" duration-ms="27110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mamatva -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Mohs10.TestScripts.MamatvaProd_Scripts@3d246ea3]" started-at="2024-07-31T15:29:00 IST" name="tearDown" finished-at="2024-07-31T15:29:01 IST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.Mohs10.TestScripts.MamatvaProd_Scripts@3d246ea3]" started-at="2024-07-31T15:29:01 IST" name="afterClass" finished-at="2024-07-31T15:29:01 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.Mohs10.TestScripts.MamatvaProd_Scripts@3d246ea3]" started-at="2024-07-31T15:30:07 IST" name="afterSuite" finished-at="2024-07-31T15:30:07 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.Mohs10.TestScripts.MamatvaProd_Scripts -->
+    </test> <!-- TestNG_Report1 -->
+  </suite> <!-- Suite -->
+</testng-results>
